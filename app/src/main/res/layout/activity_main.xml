@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- SearchView -->
         <androidx.appcompat.widget.SearchView
             android:id="@+id/searchView"
             android:layout_width="match_parent"
@@ -21,7 +20,6 @@
             android:queryHint="Search GitHub User..."
             app:iconifiedByDefault="false"/>
 
-        <!-- RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
@@ -31,7 +29,6 @@
             android:paddingBottom="8dp"/>
     </LinearLayout>
 
-    <!-- ProgressBar (Centered) -->
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
